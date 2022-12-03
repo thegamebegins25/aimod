@@ -84,4 +84,4 @@ async def on_message(message):
         await reply.delete()
 
 
-client.run("MTA0ODczNzM5NjU3OTExOTIyNA.GarZYu.rVPogRcm5f7jwrpTkq7ipnITUvmkp8vMKVW4qw")
+client.run(os.getenv("AIMOD_TOKEN"))
