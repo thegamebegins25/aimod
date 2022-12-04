@@ -79,7 +79,7 @@ async def on_message(message):
     if label == "2":
         #delete and reply to message
         await message.delete()
-        reply = await message.channel.send("Your message was deleted for being toxic.")
+        reply = await message.channel.send("Your message was deleted for being against the rules.")
         await asyncio.sleep(5)
         await reply.delete()
 
