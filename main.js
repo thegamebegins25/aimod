@@ -16,3 +16,7 @@ function rick() {
         video.msRequestFullscreen();
       }
 }
+
+function unpause() {
+    video.play();
+}
